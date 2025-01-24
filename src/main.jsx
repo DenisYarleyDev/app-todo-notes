@@ -5,9 +5,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import Todo from "./pages/todo";
+import Todo from "./pages/Todo.jsx";
 import Index from "./pages";
-import Finished from "./pages/Finished";
+import Finished from "./pages/Finished.jsx";
 
 const router = createBrowserRouter([
   {path: "/",
