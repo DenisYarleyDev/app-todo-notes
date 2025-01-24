@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Todo from "./pages/Todo.jsx";
-import Index from "./pages";
+import Index from "./pages/Index.jsx";
 import Finished from "./pages/Finished.jsx";
 
 const router = createBrowserRouter([
